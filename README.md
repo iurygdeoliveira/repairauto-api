@@ -1,8 +1,8 @@
 <div align="center">
 
-## AUTO FIND API
+# **AutoFind API: Uma Solução Inteligente para Localização de Oficinas Automotivas**
 
-"Api para localização inteligente de oficinas automotivas"
+_"Aplicação desenvolvida com Laravel 12, oferecendo eficiência e escalabilidade"_
 
 ![Logo](logo.png)
 
@@ -10,41 +10,61 @@
 
 </div>
 
-## SOBRE
+## **Sobre o Projeto**
 
-Esta API foi desenvolvida com o objetivo de oferecer uma solução eficiente para localizar oficinas automotivas próximas, utilizando, a mais recente atualização do Laravel. Construído com o Laravel 12, a aplicação explora os avanços mais recentes do framework para garantir desempenho, segurança e escalabilidade.
+A **AutoFind API** foi projetada para atender à crescente demanda por soluções inteligentes no setor automotivo, oferecendo uma abordagem para localizar oficinas automotivas próximas com base na localização do usuário. Com o uso do **Laravel 12**, a aplicação se beneficia de atualizações recentes do framework, que incluem melhorias em desempenho, segurança e escalabilidade.
 
-## Funcionalidades que esta API suporta
+---
 
--   Busca inteligente por oficinas próximas\*\*: Utilizando algoritmos otimizados e integração com APIs de geolocalização, o sistema identifica as oficinas mais próximas com base na localização do usuário.
--   Autenticação com login e senha
--   Registro de novos usuarios
--   Adição de Carros
--   Distância de Oficinas
--   Informação do problema no carro para descobrir quais oficinas são especializadas na solução do problema
+## **Funcionalidades Principais**
 
-## Diagrama do Banco de Dados
+Esta API possui uma gama de funcionalidades que permitem uma integração completa com serviços automotivos, incluindo:
+
+-   **Busca inteligente por oficinas próximas:** Algoritmos otimizados e integração com APIs de geolocalização para identificar as oficinas mais próximas.
+-   **Autenticação e registro de usuários:** Sistema seguro de login e cadastro.
+-   **Gerenciamento de veículos:** Registro e gerenciamento de carros vinculados a usuários.
+-   **Cálculo de distância:** Determinação da distância entre o usuário e as oficinas.
+-   **Diagnóstico de problemas:** Permite informar problemas no veículo para localizar oficinas especializadas na solução.
+
+Com essas funcionalidades, a API se torna uma ferramenta poderosa para conectar clientes a serviços automotivos de forma prática e eficiente.
+
+---
+
+## **Diagrama do Banco de Dados**
 
 <object data="diagram_db.pdf" type="application/pdf" width="100%" height="500">
   <a href="diagram_db.pdf">Baixe o arquivo</a>
 </object>
 
-O diagrama acima ilustra a estrutura do banco de dados, projetada para garantir eficiência e escalabilidade. A modelagem foi realizada com base nos princípios de normalização e aproveitando os recursos avançados de Eloquent ORM do Laravel 12.
+O diagrama acima apresenta a modelagem do banco de dados, projetada para garantir a integridade e a escalabilidade. A estrutura foi construída com base nos princípios de normalização de dados e aproveitando o poder do **Eloquent ORM** do Laravel 12 para simplificar operações complexas.
 
-## Pré-requisitos
+---
 
-Antes de iniciar a instalação, certifique-se de que o ambiente de desenvolvimento atende aos seguintes requisitos:
+## **Pré-requisitos**
 
--   **PHP 8.4 ou superior**: Para aproveitar as melhorias de desempenho e compatibilidade com o Laravel 12.
--   **Composer**: Gerenciador de dependências do PHP.
--   **Banco de Dados**: PostgreSQL 17 ou superior, ou qualquer outro banco de dados suportado pelo Laravel.
--   **Docker**: Para containerização da API.
+Certifique-se de que o ambiente de desenvolvimento atende aos seguintes requisitos antes de instalar a API:
+
+-   **PHP 8.4 ou superior:** Para garantir compatibilidade e aproveitar as melhorias de desempenho.
+-   **Composer:** Gerenciador de dependências para instalação de pacotes PHP.
+-   **Banco de Dados:** PostgreSQL 17 ou superior, ou qualquer outro banco de dados compatível com Laravel.
+-   **Docker:** Para containerização e isolamento do ambiente de execução.
+
+---
 
 ## Instalação
 
-## Contribuindo
+---
 
-Contribuições são sempre bem-vindas! Este projeto segue um modelo de desenvolvimento colaborativo, e sua participação é essencial para torná-lo ainda melhor.
+## **Contribuindo**
+
+Contribuições são sempre bem-vindas! Este projeto adota um modelo colaborativo, e qualquer contribuição que melhore a funcionalidade, documentação ou desempenho será apreciada.
+Para começar a contribuir, siga estas etapas:
+
+1. Faça um fork do repositório.
+2. Crie uma nova branch para suas alterações.
+3. Envie um pull request detalhando as mudanças realizadas.
+
+---
 
 ## Contato
 
