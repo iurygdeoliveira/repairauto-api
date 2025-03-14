@@ -1,17 +1,24 @@
+<div align="center">
+
 ![Logo](logo.png)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) ![PHP Version](https://img.shields.io/badge/PHP-8.4+-blue.svg) [![Laravel Version](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 
-# Título do Projeto
+</div>
+
+## Título do Projeto
 
 Uma breve descrição sobre o que esse projeto faz e para quem ele é
 
 ## Funcionalidades
 
--   Temas dark e light
--   Preview em tempo real
--   Modo tela cheia
--   Multiplataforma
+-   buscas pela oficina mais proxima
+
+## Diagrama do Banco de Dados
+
+<object data="diagram_db.pdf" type="application/pdf" width="100%" height="500">
+  <a href="diagram_db.pdf">Baixe o arquivo</a>
+</object>
 
 ## Pré-requisitos
 
