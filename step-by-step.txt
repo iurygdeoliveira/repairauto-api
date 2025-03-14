@@ -1,0 +1,21 @@
+1: curl -s "https://laravel.build/learning-api?with=mysql,redis,mailpit,minio" | bash
+2: sail up  
+3: sail artisan sail:publish (trazer a estrutura do docker/sail para a estrutura de pastas do framework)
+4: sail composer require league/flysystem-aws-s3-v3 "^3.0" --with-all-dependencies
+5: sail composer require "maatwebsite/excel:^3.1"
+6: sail composer require mrmarchone/laravel-auto-crud --dev
+7: php artisan vendor:publish --provider="Mrmarchone\\LaravelAutoCrud\\LaravelAutoCrudServiceProvider" --tag="auto-crud-config"
+8: sail artisan auto-crud:generate --model=User --type=api --repository --curl 
+
+7: Configurar minio para uso local
+AWS_ACCESS_KEY_ID=sail
+AWS_SECRET_ACCESS_KEY=password
+AWS_DEFAULT_REGION=us-east-1
+AWS_BUCKET=local
+AWS_ENDPOINT=http://minio:9000
+AWS_URL=http://localhost:9000/local
+AWS_USE_PATH_STYLE_ENDPOINT=true
+
+
+
+
