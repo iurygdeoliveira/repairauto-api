@@ -14,8 +14,6 @@ _"Aplicação desenvolvida com Laravel 12, oferecendo eficiência e escalabilida
 
 A **AutoFind API** foi projetada para atender à crescente demanda por soluções inteligentes no setor automotivo, oferecendo uma abordagem para localizar oficinas automotivas próximas com base na localização do usuário. Com o uso do **Laravel 12**, a aplicação se beneficia de atualizações recentes do framework, que incluem melhorias em desempenho, segurança e escalabilidade.
 
----
-
 ## **Funcionalidades Principais**
 
 Esta API possui uma gama de funcionalidades que permitem uma integração completa com serviços automotivos, incluindo:
@@ -28,8 +26,6 @@ Esta API possui uma gama de funcionalidades que permitem uma integração comple
 
 Com essas funcionalidades, a API se torna uma ferramenta poderosa para conectar clientes a serviços automotivos de forma prática e eficiente.
 
----
-
 ## **Diagrama do Banco de Dados**
 
 <object data="diagram_db.pdf" type="application/pdf" width="100%" height="500">
@@ -37,8 +33,6 @@ Com essas funcionalidades, a API se torna uma ferramenta poderosa para conectar 
 </object>
 
 O diagrama acima apresenta a modelagem do banco de dados, projetada para garantir a integridade e a escalabilidade. A estrutura foi construída com base nos princípios de normalização de dados e aproveitando o poder do **Eloquent ORM** do Laravel 12 para simplificar operações complexas.
-
----
 
 ## **Pré-requisitos**
 
@@ -49,11 +43,7 @@ Certifique-se de que o ambiente de desenvolvimento atende aos seguintes requisit
 -   **Banco de Dados:** PostgreSQL 17 ou superior, ou qualquer outro banco de dados compatível com Laravel.
 -   **Docker:** Para containerização e isolamento do ambiente de execução.
 
----
-
 ## Instalação
-
----
 
 ## **Contribuindo**
 
@@ -63,8 +53,6 @@ Para começar a contribuir, siga estas etapas:
 1. Faça um fork do repositório.
 2. Crie uma nova branch para suas alterações.
 3. Envie um pull request detalhando as mudanças realizadas.
-
----
 
 ## Contato
 
