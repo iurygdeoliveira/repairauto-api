@@ -6,7 +6,8 @@
 6: sail composer require "maatwebsite/excel:^3.1"
 7: sail composer require mrmarchone/laravel-auto-crud --dev
 8: php artisan vendor:publish --provider="Mrmarchone\\LaravelAutoCrud\\LaravelAutoCrudServiceProvider" --tag="auto-crud-config"
-9: sail artisan auto-crud:generate --model=User --type=api --repository --curl 
+9: sail artisan auto-crud:generate --model=User --type=api --repository --curl
+10: sail composer require timwassenburg/laravel-service-generator --dev 
 
 10: Configurar minio para uso local
 AWS_ACCESS_KEY_ID=sail
