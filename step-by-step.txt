@@ -7,9 +7,17 @@
 7: sail composer require mrmarchone/laravel-auto-crud --dev
 8: php artisan vendor:publish --provider="Mrmarchone\\LaravelAutoCrud\\LaravelAutoCrudServiceProvider" --tag="auto-crud-config"
 9: sail artisan auto-crud:generate --model=User --type=api --repository --curl
-10: sail composer require timwassenburg/laravel-service-generator --dev 
+10: sail composer require timwassenburg/laravel-service-generator --dev
+11: sail composer require --dev "larastan/larastan:^3.0" 
+12: sail composer require prism-php/prism
+    sail artisan vendor:publish --tag=prism-config
+13: sail composer require spatie/laravel-permission
+    sail php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
 
-10: Configurar minio para uso local
+14: sail composer require laradumps/laradumps ^4.0 --dev -W
+    sail artisan ds:init $(pwd)
+    
+15: Configurar minio para uso local
 AWS_ACCESS_KEY_ID=sail
 AWS_SECRET_ACCESS_KEY=password
 AWS_DEFAULT_REGION=us-east-1
