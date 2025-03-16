@@ -8,7 +8,7 @@ use App\Models\User;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\ValidationException;
 
-class AuthServices
+class AuthService
 {
     public function login(LoginRequest $request): User
     {
@@ -29,8 +29,8 @@ class AuthServices
         return $user;
     }
 
-    public function logout()
-    {
-        auth()->user()->tokens()->delete();
-    }
+    // public function logout()
+    // {
+    //     auth()->user()->tokens()->delete();
+    // }
 }
