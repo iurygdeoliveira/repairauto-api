@@ -43,7 +43,25 @@ Certifique-se de que o ambiente de desenvolvimento atende aos seguintes requisit
 -   **Banco de Dados:** PostgreSQL 17 ou superior, ou qualquer outro banco de dados compatível com Laravel.
 -   **Docker:** Para containerização e isolamento do ambiente de execução.
 
-## Instalação
+## **Instalação**
+
+## **API**
+
+### 1.1 - Login de usuarios (Rate Limiting de 10 tentativas por minuto)
+
+```http
+  POST /api/v1/login
+```
+
+| Parâmetro  | Tipo     | Descrição                          |
+| :--------- | :------- | :--------------------------------- |
+| `email`    | `string` | **Obrigatório**. email do usuario. |
+| `password` | `string` | **Obrigatório**. senha do usuario. |
+
+### Respostas Esperadas
+
+-   **200 OK**: Usuário logado, retorna os dados do usuário logado.
+-   **422 Unprocessable Content**: Se algum campo estiver faltando/inválido/em uso.
 
 ## **Contribuindo**
 
@@ -54,13 +72,13 @@ Para começar a contribuir, siga estas etapas:
 2. Crie uma nova branch para suas alterações.
 3. Envie um pull request detalhando as mudanças realizadas.
 
-## Contato
+## **Contato**
 
 Caso tenha dúvidas, sugestões ou queira relatar problemas, entre em contato:
 
 E-mail: iurygdeoliveira@gmail.com
 LinkedIn: [Perfil](https://www.linkedin.com/in/iurygdeoliveira/)
 
-## Agradecimentos
+## **Agradecimentos**
 
 Gostaríamos de agradecer à comunidade Laravel por sua constante inovação e suporte. A utilização do Laravel 12 foi fundamental para alcançar os objetivos técnicos e funcionais desta aplicação.

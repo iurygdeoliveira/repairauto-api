@@ -14,6 +14,11 @@ class CarResource extends JsonResource
      */
     public function toArray(Request $request): array
     {
-        return parent::toArray($request);
+        return [
+            'id' => $this->id,
+            'brand_id' => $this->brand_id,
+            'brand' => $this->whenLoaded('brand'),
+            'name' => $this->name
+        ];
     }
 }
